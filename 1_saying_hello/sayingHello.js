@@ -1,3 +1,11 @@
 var name = prompt("what is your name?")
 
-document.write("Hello, " + name + ", nice to meet you!")
+function evaluateResponse(nom){
+    if (nom === "Liam") {
+        return "Hello Liam, Nice to meet you"
+    } else {
+        return "Well, " + nom + ", you certainly aren't Liam, that's for sure!"
+    }
+}
+
+document.write(evaluateResponse(name))
