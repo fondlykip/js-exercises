@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Saying Hello</title>
     <script src="sayingHello.js"></script>
+    
 </head>
 <body>
     
+    <form name="myForm" method="post">
+        Name:<input type="text" id="fname">
+        <input type="submit" value="Submit" onclick="handleDaForm(); return false;">
+    </form>
+    <div>
+        <p id="output"></p>
+    </div>
 </body>
 </html>

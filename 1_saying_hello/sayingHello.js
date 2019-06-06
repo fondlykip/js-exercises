@@ -1,5 +1,5 @@
 //take name in
-var name = prompt("what is your name?")
+//var name = prompt("what is your name?")
 
 //function takes name string 'nom',
 //validates value and returns necessary result
@@ -11,5 +11,10 @@ function evaluateResponse(nom){
         return "Well, " + nom + ", you certainly aren't Liam, that's for sure!"
     }
 }
+
+function handleDaForm(){
+    var name = document.getElementById("fname").value;
+    document.getElementById("output").innerHTML = evaluateResponse(name);
+}
 //output return val from evaluateResponse func
-document.write(evaluateResponse(name))
+//document.write(evaluateResponse(name))
