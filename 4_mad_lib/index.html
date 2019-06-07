@@ -7,6 +7,16 @@
     <script src="madLib.js"></script>
 </head>
 <body>
-    
+    <form name="madLibForm" method="post">
+        Noun:<input type="text" id="form-noun"><br>
+        Verb: <input type="text" id="form-verb"><br>
+        Adjective:<input type="text" id="form-adjective"><br>
+        Adverb:<input type="text" id="form-adverb"><br>
+        <input type="submit" value="Submit" onclick="formHandleFunc(); return false;">
+    </form>
+    <div>
+        <p>Your MadLib is:</p>
+        <p id="madLibOut">Do you ___ your ___ ___ ___?</p>
+    </div>
 </body>
 </html>
