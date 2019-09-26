@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ex 10 - Self Checkout</title>
+    <script src="selfCheckout.js"></script>
+</head>
+<body>
+    <form name="selfCheckoutForm" metod="post">
+        Item 1 - Price:<input type="text" id="p1"> - Qty:<input type="text" id="q1"><br>
+        Item 2 - Price:<input type="text" id="p2"> - Qty:<input type="text" id="q2"><br>
+        Item 3 - Price:<input type="text" id="p3"> - Qty:<input type="text" id="q3"><br>
+        <input type="submit" value="Checkout..." onclick="checkoutFunc(); return false">
+    </form>
+    <h3>order summary</h3>
+    <p id="subTotalOut">Subtotal:____</p>
+    <p id="vatOut">VAT:____</p>
+    <p id="TotalOut">Total:_____</p>
+</body>
+</html>
