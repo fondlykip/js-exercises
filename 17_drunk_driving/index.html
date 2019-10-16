@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drunk Driving Test</title>
+    <script src="drunkDriving.js"></script>
+</head>
+<body>
+    <form name="userInputs" method="post">
+        Name: <input type="text" id="userName"><br>
+        weight(lbs): <input type="text" id="userWeight"><br>
+        Gender: <input type="radio" value="male" name="userGender"> Male    <input type="radio" value="female" name="userGender">Female<br>
+        Number of pints: <input type="text" id="userPints"><br>
+        How Long ago? (hours): <input type="text" id="userTime"><br>
+        <input type="submit" value="aM i DrUnK.?/?" onclick="legallyDrive(); return false">
+    </form>
+
+    <p id="userOutput"> </p>
+</body>
+</html>
