@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Currency Converter</title>
+    <script src="./currencyConverter.js"></script>
+
+</head>
+<body>
+    <form name="currencyForm">
+        How many Euros are you exchanging? : <input type="text" id="eurQty"><br>
+        What is the Exchange rate? : <input id="eurRate" type="text"><br>
+        <input type="submit" value="Convert..." onclick="convertCurrency(); return false;">
+    </form>
+    <p id="convOut">__ Euros at an exchange rate of ______ is ______ U.S. Dollars </p>
+</body>
+</html>

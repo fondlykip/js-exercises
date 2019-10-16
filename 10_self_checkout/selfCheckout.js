@@ -24,6 +24,6 @@ function checkoutFunc(){
     document.getElementById("subTotalOut").innerHTML = "Subtotal: " + subTotal.toFixed(2);
     document.getElementById("vatOut").innerHTML = "VAT: " + vat.toFixed(2);
     document.getElementById("TotalOut").innerHTML = "Total: "  + totalPrice.toFixed(2);
-
+    
 
 }

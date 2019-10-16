@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculating compound interest</title>
+    <script src="compInt.js"></script>
+</head>
+<body>
+    
+    <form action="" name="compoundForm" method="post">
+        What is the Principal? <input id="userPrinc" type="text"><br>
+        What is the rate? <input id="userRate" type="text"><br>
+        What is the number of years? <input id="userYears" type="text"><br>
+        Compound how many times in a year? <input id="userComp" type="text"> <br>
+        
+        <input type="submit" value="Calculate Interest..." onclick="calculate_compound_interest(); return false">
+
+    </form>
+    <p id="userOutput">£___ invested at __% for __ years compounded __ times per year is £____</p>
+</body>
+</html>

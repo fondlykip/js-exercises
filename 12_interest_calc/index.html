@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interest Calculator</title>
+    <script src="intCalc.js"></script>
+</head>
+<body>
+
+    <!--Form to take in values from user-->
+    <form name="intForm" method="">
+       Enter the Principal: <input type="text" id="principal"><br>
+       Enter the Annual Rate of interest: <input type="text" id="intRate"><br>
+       Enter the Term of the investment:  <input type="text" id="term"><br>
+       <input type="submit" value="Show Investment..." onclick="intCalcFunc(); return false;">
+    </form>
+
+    <!--Line to display process output to-->
+    <p id="intCalcOut">After __ years at ___%, the investment will be worth ___.</p>
+</body>
+</html>
