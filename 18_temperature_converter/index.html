@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature Converter</title>
+    <script src="tempConverter.js"></script>
+</head>
+<body>
+    <form name="userInput" method="POST">
+        What are you converting from? C <input type="radio" name="startUnit" value="C">  |  F <input type="radio" name="startUnit" value="F"><br>
+        What is the temperature? <input type="text" id="userTemp"><br>
+        <input type="submit" id="submitButt" value="Convert" onclick="convertTemp(); return false;"> 
+    </form>
+    <p id="userOutput"></p>
+</body>
+</html>
