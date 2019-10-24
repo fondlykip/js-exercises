@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car Troubleshooting</title>
+    <script src="troubleshootCars.js"></script>
+</head>
+<body>
+    <form id="userInput" method="post">
+        Is the car silent when you turn the key?<br>
+        <input type="submit" value="yes" onclick="troubleshootCar('silence','yes'); return false;"><input type="submit" value="no" onclick="troubleshootCar('silence','no'); return false;">
+    </form>
+</body>
+</html>
