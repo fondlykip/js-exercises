@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="anagramCheck.js"></script>
+</head>
+<body>
+    <h1>Anagram Checker</h1>
+    <p>I can check if two words are anagrams of eachother.
+        Enter them below and press submit to find out!</p>
+    <form id="userInput" method="post">
+        First Word: <input type="text" id="userWord1"><br>
+        Second Word: <input type="text" id="userWord2"><br>
+        <input type="submit" value="Check Anagrams..." onclick="submitForm(); return false;">
+    </form>
+    <p id="userOutPut"></p>
+</body>
+</html>
