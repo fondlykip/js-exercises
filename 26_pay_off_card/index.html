@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pay Off Credit Card</title>
+    <script src="payOffCreditCard.js"></script>
+</head>
+<body>
+    <h1> Credit Card Pay Off Calculator!</h1>
+    <p>How long will it take you to pay off your credit card? Find out now!</p>
+    <form id="userForm" method="post">
+        Balance: <input type="text" id="userBal"><br>
+        APR(%): <input type ="text" id="userAPR"><br>
+        Minnimum monthly payment: <input type="text" id="userPaym"><br>
+        <input type="submit" value="Submit..." onclick="submitForm(); return false;">
+    </form>
+
+    <p id="userOutput"></p>
+</body>
+</html>

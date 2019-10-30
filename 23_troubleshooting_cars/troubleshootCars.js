@@ -1,5 +1,3 @@
-
-
 function troubleshootCar(question, answer){
     var userAns = answer;
     var questKeyword = question;
@@ -52,4 +50,4 @@ function troubleshootCar(question, answer){
             break;
     }
 
-}
+};
