@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="validateInputs.js"></script>
+</head>
+<body>
+    <h1>New Employee Form</h1>
+    <p>Enter the employee details below</p>
+    <form id="userInput" method="post">
+        Enter the first name: <input type="text" id="empFirstName"><br>
+        Enter the second name: <input type="text" id="empSecondName"><br>
+        Enter the Postcode: <input type="text" id="empPostcode"><br>
+        Enter an employee ID: <input type="text" id="empID"><br>
+        <input type="submit" value="Submit" id="formSubmitButton" onclick="submitForm(); return false">
+    </form>
+    <p id="userOutput"></p>
+</body>
+</html>
