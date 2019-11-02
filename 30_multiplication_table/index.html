@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="multiplicationTable.js"></script>
+    <style>
+        body{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            margin-top: 50px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            text-align:center;
+        }
+        th, td {
+            width: 30px;
+        }
+    </style>
+</head>
+<body>
+    <form id="userInput">
+        <select name="baseNum" onchange="generateTable(this.options[this.selectedIndex].value); return false;">
+            <option value="" disabled selected>Make a Selection</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+    </form>
+
+    <table id="outputTable">
+
+    </table>
+</body>
+</html>
