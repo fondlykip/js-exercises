@@ -1,5 +1,5 @@
-function generateTable(n){
-    var baseNum = parseInt(n);
+function generateTable(){
+    var baseNum = parseInt(document.getElementById("baseNum").value);
     var outputHTML = "<tr>\n"; //start with header row opening tag
     
     //add header row
